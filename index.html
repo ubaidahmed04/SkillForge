@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkillForge | Future-Proof Skills for the AI Era</title>
+  <meta name="description" content="SkillForge helps students, freelancers, developers and professionals choose the technical, creative and human skills worth learning in the AI era, with learning paths, projects and progress tracking.">
+  <meta name="theme-color" content="#0B1020">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SkillForge | Future-Proof Skills for the AI Era">
+  <meta property="og:description" content="Don't compete with AI. Learn the skills that help you build, control, and innovate with AI.">
+  <meta property="og:site_name" content="SkillForge">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%236C63FF'/%3E%3Cpath d='M8 23l8-14 8 14z' fill='%2322D3EE'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="logo" href="#home" aria-label="SkillForge home">
+        <svg class="logo-mark" width="34" height="34" viewBox="0 0 34 34" aria-hidden="true">
+          <defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6C63FF"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+          <rect width="34" height="34" rx="10" fill="url(#lg)"/>
+          <path d="M9 24l8-14 8 14z" fill="none" stroke="#fff" stroke-width="2.4" stroke-linejoin="round"/>
+          <circle cx="17" cy="19" r="2" fill="#fff"/>
+        </svg>
+        <span>SkillForge</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#home" data-spy="home">Home</a></li>
+          <li><a href="#categories" data-spy="categories explore">Explore Skills</a></li>
+          <li><a href="#paths" data-spy="paths recommend progress resources">Learning Paths</a></li>
+          <li><a href="#why" data-spy="why projects">Why Future-Proof?</a></li>
+          <li><a href="#about" data-spy="about faq">About</a></li>
+          <li><a href="#contact" data-spy="contact">Contact</a></li>
+        </ul>
+        <a class="btn btn-primary btn-sm nav-cta" href="#recommend">Start Learning</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="blob b1"></span><span class="blob b2"></span><span class="grid-lines"></span>
+      </div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="badge hero-anim" style="--d:0ms"><span class="dot"></span>BUILD YOUR FUTURE IN THE AI ERA</span>
+          <h1 id="hero-title" class="hero-anim" style="--d:120ms">Skills That Keep You Ahead, <span class="grad-text">Even as AI Evolves.</span></h1>
+          <p class="lead hero-anim" style="--d:240ms">Discover the technical, creative, and human skills that help you solve real problems, build meaningful products, and stay relevant in a rapidly changing world.</p>
+          <div class="hero-cta hero-anim" style="--d:360ms">
+            <a class="btn btn-primary btn-lg" href="#categories">Explore Future Skills</a>
+            <a class="btn btn-outline btn-lg" href="#recommend">Discover Your Learning Path</a>
+          </div>
+          <p class="trust hero-anim" style="--d:480ms"><i data-lucide="sparkles"></i> Learn with purpose. Build real projects. Adapt for the future.</p>
+          <dl class="hero-stats hero-anim" style="--d:600ms">
+            <div><dt>Skill categories</dt><dd><span class="count" data-count="6" id="stat-categories">6</span></dd></div>
+            <div><dt>Skills to explore</dt><dd><span class="count" data-count="22" id="stat-skills">22</span></dd></div>
+            <div><dt>Learning paths</dt><dd><span class="count" data-count="5" id="stat-paths">5</span></dd></div>
+            <div><dt>Practical projects</dt><dd><span class="count" data-count="6" id="stat-projects">6</span></dd></div>
+          </dl>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <span class="ring r1"></span><span class="ring r2"></span><span class="ring r3"></span>
+          <div class="orb"><i data-lucide="brain-circuit"></i></div>
+          <div class="fcard fc1"><i data-lucide="bot"></i><span>Artificial Intelligence</span></div>
+          <div class="fcard fc2"><i data-lucide="code-2"></i><span>Software Engineering</span></div>
+          <div class="fcard fc3"><i data-lucide="shield-check"></i><span>Cybersecurity</span></div>
+          <div class="fcard fc4"><i data-lucide="bar-chart-3"></i><span>Data Analytics</span></div>
+          <div class="fcard fc5"><i data-lucide="palette"></i><span>Human Creativity</span></div>
+          <div class="fcard fc6"><i data-lucide="compass"></i><span>Strategic Thinking</span></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="message-band">
+      <div class="container">
+        <p><strong>Don't Compete With AI.</strong> Learn the Skills That Help You Build, Control, and Innovate With AI.</p>
+      </div>
+    </div>
+
+    <!-- ============ CATEGORIES ============ -->
+    <section class="section" id="categories" aria-labelledby="categories-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow">Skill Categories</span>
+          <h2 id="categories-title">What Should You Learn in the AI Era?</h2>
+          <p>Build a powerful combination of technical expertise, human intelligence, and practical problem-solving.</p>
+        </header>
+        <div class="grid" id="category-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ EXPLORER ============ -->
+    <section class="section alt" id="explore" aria-labelledby="explore-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow">Skills Explorer</span>
+          <h2 id="explore-title">Future-Proof Skills Explorer</h2>
+          <p>Filter or search individual skills. No skill is immune to change, so every card shows how the skill can evolve and what to combine it with.</p>
+        </header>
+
+        <div class="explorer-controls reveal">
+          <div class="search-box">
+            <label for="skill-search" class="visually-hidden">Search skills by name or keyword</label>
+            <i data-lucide="search" aria-hidden="true"></i>
+            <input type="search" id="skill-search" placeholder="Search skills, e.g. SQL, security, design" autocomplete="off">
+          </div>
+          <div class="filters" id="skill-filters" role="group" aria-label="Filter skills by category">
+            <button type="button" class="chip active" data-filter="all" aria-pressed="true">All Skills</button>
+            <button type="button" class="chip" data-filter="technology" aria-pressed="false">Technology</button>
+            <button type="button" class="chip" data-filter="ai" aria-pressed="false">AI and Automation</button>
+            <button type="button" class="chip" data-filter="business" aria-pressed="false">Business</button>
+            <button type="button" class="chip" data-filter="creative" aria-pressed="false">Creative Skills</button>
+            <button type="button" class="chip" data-filter="human" aria-pressed="false">Human Skills</button>
+          </div>
+        </div>
+
+        <p class="result-count" id="skill-count" role="status" aria-live="polite"></p>
+        <div class="grid" id="skill-grid"></div>
+        <div class="empty-state" id="skill-empty" hidden>
+          <i data-lucide="search-x"></i>
+          <h3>No skills match your search</h3>
+          <p>Try a different keyword or switch back to "All Skills".</p>
+          <button type="button" class="btn btn-outline btn-sm" id="skill-clear">Clear search and filters</button>
+        </div>
+        <div class="center-row"><button type="button" class="btn btn-outline" id="skill-more" hidden>Show more skills</button></div>
+      </div>
+    </section>
+
+    <!-- ============ LEARNING PATHS ============ -->
+    <section class="section" id="paths" aria-labelledby="paths-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow">Learning Paths</span>
+          <h2 id="paths-title">Choose Your Path. Build Your Future.</h2>
+          <p>Five structured roadmaps, each ending with real, publishable work.</p>
+        </header>
+        <div class="grid" id="path-grid"></div>
+        <p class="note reveal"><i data-lucide="info"></i> Durations are estimates only. Actual timelines depend on your previous knowledge, available study time, and how consistently you practice.</p>
+      </div>
+    </section>
+
+    <!-- ============ HUMAN ADVANTAGE ============ -->
+    <section class="section alt" id="why" aria-labelledby="why-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow">Why Future-Proof?</span>
+          <h2 id="why-title">AI Is Powerful. Human Judgment Still Matters.</h2>
+          <p>AI can automate many tasks, and no job or skill is guaranteed to stay unchanged. The strongest strategy is adaptable expertise, good judgment, real-world experience, and the ability to work effectively with AI.</p>
+        </header>
+        <div class="vs-head reveal" aria-hidden="true">
+          <span><i data-lucide="cpu"></i> What AI does well</span>
+          <span></span>
+          <span><i data-lucide="user-check"></i> What people add</span>
+        </div>
+        <div class="vs-list" id="vs-list"></div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow">Practical Projects</span>
+          <h2 id="projects-title">Don't Just Learn Skills. Build Something Real.</h2>
+          <p>Projects turn knowledge into proof. Pick one, build it, publish it, and explain your decisions.</p>
+        </header>
+        <div class="grid" id="project-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ RECOMMENDER ============ -->
+    <section class="section alt" id="recommend" aria-labelledby="recommend-title">
+      <div class="container narrow">
+        <header class="section-head reveal">
+          <span class="eyebrow">Personalized Guidance</span>
+          <h2 id="recommend-title">Find the Right Skill for Your Goals.</h2>
+          <p>Answer three quick questions. The recommendation is generated locally in your browser. Nothing is sent anywhere.</p>
+        </header>
+
+        <form id="recommend-form" class="panel reveal" novalidate>
+          <fieldset>
+            <legend><span class="q-num">1</span> What is your current level?</legend>
+            <div class="choice-grid" data-name="level">
+              <label class="choice"><input type="radio" name="level" value="beginner"><span>Complete Beginner</span></label>
+              <label class="choice"><input type="radio" name="level" value="some"><span>Some Experience</span></label>
+              <label class="choice"><input type="radio" name="level" value="pro"><span>Experienced Professional</span></label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend><span class="q-num">2</span> What interests you most?</legend>
+            <div class="choice-grid" data-name="interest">
+              <label class="choice"><input type="radio" name="interest" value="tech"><span>Technology and Coding</span></label>
+              <label class="choice"><input type="radio" name="interest" value="ai"><span>AI and Automation</span></label>
+              <label class="choice"><input type="radio" name="interest" value="data"><span>Data and Analytics</span></label>
+              <label class="choice"><input type="radio" name="interest" value="biz"><span>Business and Entrepreneurship</span></label>
+              <label class="choice"><input type="radio" name="interest" value="creative"><span>Creative and Human-Centered Skills</span></label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend><span class="q-num">3</span> What is your main goal?</legend>
+            <div class="choice-grid" data-name="goal">
+              <label class="choice"><input type="radio" name="goal" value="job"><span>Get a Job</span></label>
+              <label class="choice"><input type="radio" name="goal" value="freelance"><span>Start Freelancing</span></label>
+              <label class="choice"><input type="radio" name="goal" value="business"><span>Build a Business</span></label>
+              <label class="choice"><input type="radio" name="goal" value="career"><span>Improve My Current Career</span></label>
+            </div>
+          </fieldset>
+          <p class="form-error" id="recommend-error" role="alert" hidden></p>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Get My Recommendation</button>
+            <button type="reset" class="btn btn-ghost" id="recommend-reset">Start over</button>
+          </div>
+        </form>
+
+        <div id="recommend-result" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- ============ PROGRESS ============ -->
+    <section class="section" id="progress" aria-labelledby="progress-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow">Career Readiness</span>
+          <h2 id="progress-title">Your Progress Starts With One Skill.</h2>
+          <p>Plan your week, tick off milestones, and watch your progress grow.</p>
+        </header>
+
+        <div class="progress-summary panel reveal">
+          <div class="progress-top">
+            <div>
+              <h3>Overall progress</h3>
+              <p id="progress-msg">Start with one small milestone today.</p>
+            </div>
+            <div class="progress-pct" id="progress-pct" aria-hidden="true">0%</div>
+          </div>
+          <div class="bar-track" role="progressbar" aria-label="Learning milestones completed" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress-bar">
+            <div class="bar-fill" id="progress-fill"></div>
+          </div>
+          <p class="progress-sub" id="progress-sub"></p>
+        </div>
+
+        <div class="progress-grid">
+          <div class="panel reveal">
+            <h3><i data-lucide="list-checks"></i> Skill checklist</h3>
+            <div id="checklist"></div>
+          </div>
+          <div class="panel reveal">
+            <h3><i data-lucide="calendar-days"></i> Weekly learning planner</h3>
+            <p class="muted small">Edit each day's focus and tick it when done.</p>
+            <div id="planner"></div>
+          </div>
+          <div class="panel reveal">
+            <h3><i data-lucide="timer"></i> Suggested daily routine (about 90 minutes)</h3>
+            <ol class="routine" id="routine"></ol>
+          </div>
+          <div class="panel reveal">
+            <h3><i data-lucide="folder-git-2"></i> Portfolio-building roadmap</h3>
+            <ol class="roadmap" id="roadmap"></ol>
+          </div>
+        </div>
+
+        <div class="progress-footer reveal">
+          <p class="note"><i data-lucide="hard-drive"></i> Your progress is saved only in this browser using localStorage. It is not synced across devices or accounts, and clearing site data will remove it.</p>
+          <button type="button" class="btn btn-outline btn-sm" id="progress-reset">Reset progress</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESOURCES ============ -->
+    <section class="section alt" id="resources" aria-labelledby="resources-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow">Resources</span>
+          <h2 id="resources-title">Resources and Learning Guide</h2>
+          <p>Well-known educational platforms to start with. Links open in a new tab.</p>
+        </header>
+        <div class="grid" id="resource-grid"></div>
+        <p class="note reveal"><i data-lucide="info"></i> SkillForge is not affiliated with, endorsed by, or partnered with these providers. Pricing and availability can change, so check each site for current details.</p>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="about-grid">
+          <div class="reveal">
+            <span class="eyebrow">About SkillForge</span>
+            <h2 id="about-title">Learning for a World That Never Stops Changing.</h2>
+            <p class="lead">SkillForge is designed around a simple belief: the future belongs to people who continuously learn, adapt, and solve meaningful problems. We help learners build practical technical capabilities, human-centered skills, and the confidence to use AI responsibly.</p>
+          </div>
+          <div class="values">
+            <article class="card value reveal" style="--i:0">
+              <div class="icon-wrap"><i data-lucide="target"></i></div>
+              <h3>Learn with Purpose</h3>
+              <p>Choose skills connected to real problems and goals, not just trends.</p>
+            </article>
+            <article class="card value reveal" style="--i:1">
+              <div class="icon-wrap"><i data-lucide="hammer"></i></div>
+              <h3>Practice Through Projects</h3>
+              <p>Build visible work that shows what you can actually do.</p>
+            </article>
+            <article class="card value reveal" style="--i:2">
+              <div class="icon-wrap"><i data-lucide="refresh-cw"></i></div>
+              <h3>Adapt Continuously</h3>
+              <p>Keep updating your skills as tools, markets, and AI capabilities change.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section alt" id="faq" aria-labelledby="faq-title">
+      <div class="container narrow">
+        <header class="section-head reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2 id="faq-title">Frequently Asked Questions</h2>
+          <p>Honest, practical answers. The best choice always depends on your interests, goals, market demand, and consistent practice.</p>
+        </header>
+        <div class="faq" id="faq-list"></div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow">Contact</span>
+          <h2 id="contact-title">Get in Touch</h2>
+          <p>Questions, feedback, or ideas? This form is a frontend demonstration and does not send messages.</p>
+        </header>
+        <div class="contact-grid">
+          <div class="panel reveal">
+            <h3>Contact details</h3>
+            <ul class="contact-list">
+              <li><i data-lucide="mail"></i><div><strong>Email</strong><span>ubaidahmed.me@gmail.com</span></div></li>
+              <li><i data-lucide="phone"></i><div><strong>Phone</strong><span>03127718780</span></div></li>
+              <li><i data-lucide="map-pin"></i><div><strong>Location</strong><span>Karachi, Pakistan</span></div></li>
+            </ul>
+          </div>
+          <form class="panel reveal" id="contact-form" novalidate>
+            <div class="field">
+              <label for="c-name">Your name</label>
+              <input id="c-name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="c-email">Email address</label>
+              <input id="c-email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="c-msg">Message</label>
+              <textarea id="c-msg" name="message" rows="4" required></textarea>
+            </div>
+            <p class="form-error" id="contact-status" role="status" aria-live="polite" hidden></p>
+            <button type="submit" class="btn btn-primary">Send message (demo)</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="#home" aria-label="SkillForge home">
+          <svg class="logo-mark" width="30" height="30" viewBox="0 0 34 34" aria-hidden="true">
+            <rect width="34" height="34" rx="10" fill="url(#lg)"/>
+            <path d="M9 24l8-14 8 14z" fill="none" stroke="#fff" stroke-width="2.4" stroke-linejoin="round"/>
+            <circle cx="17" cy="19" r="2" fill="#fff"/>
+          </svg>
+          <span>SkillForge</span>
+        </a>
+        <p>Helping learners build adaptable expertise, strong judgment, and real-world experience in the AI era.</p>
+        <div class="socials" aria-label="Social media">
+          <a href="https://github.com/ubaidahmed04" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i data-lucide="github"></i></a>
+          <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"><i data-lucide="twitter"></i></a>
+          <a href="https://www.linkedin.com/in/ubaidahmed04/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i data-lucide="youtube"></i></a>
+        </div>
+        <p class="tiny">X and YouTube links currently point to platform home pages.</p>
+      </div>
+
+      <nav aria-label="Footer navigation">
+        <h2 class="footer-title">Navigate</h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#categories">Explore Skills</a></li>
+          <li><a href="#paths">Learning Paths</a></li>
+          <li><a href="#why">Why Future-Proof?</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <nav aria-label="Skill categories">
+        <h2 class="footer-title">Skill Categories</h2>
+        <ul>
+          <li><a href="#explore" data-filter-link="ai">AI and Automation</a></li>
+          <li><a href="#explore" data-filter-link="technology">Technology</a></li>
+          <li><a href="#explore" data-filter-link="business">Business</a></li>
+          <li><a href="#explore" data-filter-link="creative">Creative Skills</a></li>
+          <li><a href="#explore" data-filter-link="human">Human Skills</a></li>
+        </ul>
+      </nav>
+
+      <nav aria-label="Learning resources">
+        <h2 class="footer-title">Resources</h2>
+        <ul>
+          <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a></li>
+          <li><a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a></li>
+          <li><a href="https://cs50.harvard.edu/x/" target="_blank" rel="noopener noreferrer">CS50</a></li>
+          <li><a href="https://skills.github.com/" target="_blank" rel="noopener noreferrer">GitHub Skills</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-news">
+        <h2 class="footer-title">Newsletter (demo)</h2>
+        <p class="tiny">Frontend demonstration only. No subscription is created and no data is stored or sent.</p>
+        <form id="news-form" novalidate>
+          <label for="news-email" class="visually-hidden">Email address</label>
+          <input id="news-email" type="email" placeholder="you@example.com" autocomplete="email" required>
+          <button type="submit" class="btn btn-primary btn-sm">Try demo</button>
+        </form>
+        <p class="form-error" id="news-status" role="status" aria-live="polite" hidden></p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> SkillForge. All rights reserved.</p>
+      <p>Brand name is temporary. Built as a static frontend.</p>
+    </div>
+  </footer>
+
+  <button type="button" class="back-top" id="back-top" aria-label="Back to top"><i data-lucide="arrow-up"></i></button>
+
+  <!-- ============ MODAL ============ -->
+  <div class="modal-backdrop" id="modal" hidden>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
+      <button type="button" class="modal-close" data-close aria-label="Close dialog"><i data-lucide="x"></i></button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
